@@ -29,7 +29,7 @@ export default {
       {
         test: /\.css$/i,
         use: [
-          "style-loader",
+          MiniCssExtractPlugin.loader,
           "css-loader"
         ],
       },
